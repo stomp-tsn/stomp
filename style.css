@@ -86,3 +86,19 @@ footer {
 .social-links a:hover {
   background-color: #c00410;
 }
+
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
