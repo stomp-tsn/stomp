@@ -59,3 +59,12 @@ footer {
   background: #ddd;
   font-size: 0.9rem;
 }
+
+
+.logo {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+}
