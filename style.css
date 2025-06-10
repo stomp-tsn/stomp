@@ -20,13 +20,27 @@ header {
   font-style: italic;
 }
 
+.main-menu {
+  margin-top: 15px;
+}
+
+.main-menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+.main-menu a:hover {
+  border-bottom: 2px solid #fff;
+}
+
 main {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   padding: 20px;
+  text-align: center;
 }
 
 .hero h2 {
@@ -55,13 +69,6 @@ main {
   background-color: #1ebc5b;
 }
 
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #111;
-  font-size: 0.9rem;
-}
-
 .logo {
   width: 100px;
   height: auto;
@@ -85,7 +92,6 @@ footer {
   transform: scale(1.1);
 }
 
-
 .services {
   margin-top: 50px;
 }
@@ -106,6 +112,21 @@ footer {
   margin: 8px 0;
 }
 
+.store, .contact {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.store h3, .contact h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.store p, .contact p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -118,4 +139,11 @@ footer {
   height: 50px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  font-size: 0.9rem;
 }
