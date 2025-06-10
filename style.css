@@ -47,18 +47,12 @@ main {
   font-weight: bold;
   border-radius: 8px;
   font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .btn-whatsapp:hover {
   background-color: #1ebc5b;
-}
-
-.icon-inline {
-  width: 24px;
-  height: 24px;
 }
 
 footer {
@@ -69,7 +63,7 @@ footer {
 }
 
 .logo {
-  width: 60px;
+  width: 100px;
   height: auto;
   display: block;
   margin: 0 auto 10px auto;
@@ -77,7 +71,7 @@ footer {
 }
 
 .social-icons {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .social-icons a img {
