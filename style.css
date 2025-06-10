@@ -47,10 +47,18 @@ main {
   font-weight: bold;
   border-radius: 8px;
   font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .btn-whatsapp:hover {
   background-color: #1ebc5b;
+}
+
+.icon-inline {
+  width: 24px;
+  height: 24px;
 }
 
 footer {
@@ -67,26 +75,6 @@ footer {
   margin: 0 auto 10px auto;
   border-radius: 10px;
 }
-
-.social-links {
-  margin-top: 25px;
-}
-
-.social-links a {
-  display: inline-block;
-  margin: 5px 10px;
-  padding: 10px 15px;
-  background-color: #e30613;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-}
-
-.social-links a:hover {
-  background-color: #c00410;
-}
-
 
 .social-icons {
   margin-top: 30px;
