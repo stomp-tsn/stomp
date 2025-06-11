@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #e30613;
-  color: #fff;
+  color: #000;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 300px;
   height: auto;
   display: block;
   margin: 0 auto 10px auto;
