@@ -169,3 +169,14 @@ footer {
 .features li {
   margin-bottom: 8px;
 }
+
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
