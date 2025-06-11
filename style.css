@@ -152,3 +152,20 @@ footer {
 .floating-socials img:hover {
   transform: scale(1.1);
 }
+
+.slogan.white {
+  color: white;
+}
+
+.features {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  padding-left: 20px;
+  line-height: 1.6rem;
+  font-size: 1.05rem;
+}
+
+.features li {
+  margin-bottom: 8px;
+}
