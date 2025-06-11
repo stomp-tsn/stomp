@@ -193,3 +193,12 @@ footer {
   vertical-align: middle;
   margin-right: 8px;
 }
+
+footer {
+  color: white;
+}
+
+.slogan.white {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
