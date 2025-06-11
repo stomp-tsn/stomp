@@ -33,6 +33,8 @@ header {
 .main-menu {
   margin-top: 15px;
   padding: 10px 0;
+  border-top: 3px solid #e30613;
+  border-bottom: 3px solid #e30613;
 }
 
 .main-menu a {
@@ -187,7 +189,7 @@ footer {
 }
 
 .icon-contact {
-  width: 26px;
+  width: 52px;
   vertical-align: middle;
   margin-right: 8px;
 }
