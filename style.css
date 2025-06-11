@@ -2,35 +2,41 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #000;
+  background: #e30613;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 header {
-  background: #e30613;
-  color: white;
-  padding: 20px 10px;
+  background: #000;
   text-align: center;
+  padding: 20px 10px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.08);
 }
 
 .slogan {
   margin-top: 5px;
   font-weight: 400;
-  font-style: normal;
 }
 
 .main-menu {
   margin-top: 15px;
-  border-bottom: 3px solid #111;
-  border-top: 3px solid #111;
   padding: 10px 0;
 }
 
 .main-menu a {
-  color: black;
+  color: #e30613;
   text-decoration: none;
   margin: 0 10px;
   font-weight: 500;
@@ -43,19 +49,8 @@ header {
 }
 
 main {
-  flex: 1;
   padding: 20px;
   text-align: center;
-}
-
-.hero h2 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  margin-bottom: 20px;
-  font-size: 1.1rem;
 }
 
 .btn-whatsapp {
@@ -75,35 +70,13 @@ main {
   background-color: #1ebc5b;
 }
 
-.logo {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: 0 auto 10px auto;
-  border-radius: 10px;
+.services, .store, .contact {
+  margin-top: 50px;
 }
 
-h1 {
-  color: white;
-  text-shadow:
-    2px 2px 0 #000,
-   -2px 2px 0 #000,
-    2px -2px 0 #000,
-   -2px -2px 0 #000;
-  transition: transform 0.3s ease;
-}
-
-h1:hover {
-  transform: scale(1.08);
-}
-
-.services {
-  margin-top: 30px;
-}
-
-.services h3 {
+.services h3, .store h3, .contact h3 {
   font-size: 1.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .services ul {
@@ -115,21 +88,6 @@ h1:hover {
 
 .services li {
   margin: 8px 0;
-}
-
-.store, .contact {
-  margin-top: 50px;
-  text-align: center;
-}
-
-.store h3, .contact h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.store p, .contact p {
-  font-size: 1.1rem;
-  margin-bottom: 30px;
 }
 
 .contact-form {
@@ -151,7 +109,7 @@ h1:hover {
 }
 
 .contact-form button {
-  background-color: #e30613;
+  background-color: #000;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -162,7 +120,14 @@ h1:hover {
 }
 
 .contact-form button:hover {
-  background-color: #c00510;
+  background-color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  font-size: 0.9rem;
 }
 
 .floating-socials {
@@ -186,11 +151,4 @@ h1:hover {
 
 .floating-socials img:hover {
   transform: scale(1.1);
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #111;
-  font-size: 0.9rem;
 }
